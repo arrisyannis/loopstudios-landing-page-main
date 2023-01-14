@@ -71,7 +71,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
-    padding: 3rem;
+    padding: 0 3rem;
 }
 
 #section-two-text h2 {
@@ -86,4 +86,20 @@ a {
     text-transform: uppercase;
     letter-spacing: 2px;
     cursor: pointer;
+}
+
+#image-liste-container {
+    margin-top: 4rem;
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.image-list img {
+    width: 100%;
 }
