@@ -47,6 +47,7 @@ a {
     display: flex;
     align-items: center;
     padding: 0 4rem;
+    margin-bottom: 4rem;
 }
 
 #section-one img {
@@ -64,4 +65,25 @@ a {
 #section-text p {
     line-height: 1.6rem;
     margin-top: 2rem;
+}
+
+#section-two-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+#section-two-text h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#section-two-text button {
+    padding: 0 3rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
