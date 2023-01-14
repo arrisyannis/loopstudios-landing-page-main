@@ -31,16 +31,37 @@ a {
 
 #header {
     display: flex;
-    padding: 64px;
+    margin: 4rem;
 }
 
 #header h1 {
     border: 1px solid black;
-    padding: 64px;
+    padding: 4rem;
     padding-right: ;
     font-size: 5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-#section1
+#section-one {
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+#section-one img {
+    width: %;
+}
+
+#section-text {
+    padding-left: 2rem;
+}
+
+#section-one h2 {
+    font-size: 5rem;
+}
+
+#section-text p {
+    line-height: 1.6rem;
+    margin-top: 2rem;
+}
