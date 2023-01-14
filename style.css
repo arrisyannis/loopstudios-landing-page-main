@@ -7,18 +7,21 @@
     background-color: black;
     justify-content: space-between;
     display: flex;
-    padding: 24px 124px;
+    padding: 2rem 8rem;
+}
+
+a {
+    color: white;
 }
 
 #nav ul {
     list-style: none;
     display: flex;
+    gap: 2.5rem;
 }
 
 #nav a {
     text-decoration: none;
-    padding: 24px;
-    color: white;
 }
 
 #header {
@@ -29,5 +32,6 @@
 #header h1 {
     border: 1px solid black;
     padding: 64px;
+    padding-right: ;
     font-size: 80px;
 }
